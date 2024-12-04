@@ -23,3 +23,35 @@ Este projeto tem como objetivo oferecer uma **solução inteligente** para siste
 - O comando final (**"ligar"** ou **"desligar"**) é enviado ao dispositivo responsável pela irrigação, como uma bomba de água conectada via **MQTT**.
 
 ---
+## **Tecnologias Utilizadas**
+
+- **Node-RED**  
+  Ferramenta para criação de fluxos baseados em eventos e IoT.
+
+- **MQTT**  
+  Protocolo de comunicação para enviar comandos ao dispositivo de irrigação.
+
+- **OpenWeather API**  
+  Para dados climáticos em tempo real.
+
+- **Sensor de Umidade do Solo**  
+  Fornece dados locais sobre a umidade do solo.
+
+- **Node.js**  
+  Necessário para rodar o Node-RED.
+
+---
+
+## **Principais Componentes**
+
+- **flows.json**  
+  Arquivo contendo os fluxos do **Node-RED**.
+
+- **Sensores**  
+  Integração com dispositivos de IoT (umidade do solo, entre outros).
+
+- **Conexão com APIs**  
+  Configurada para acessar informações meteorológicas em tempo real.
+
+- **Dashboard**  
+  Visualização de dados e controle manual (se aplicável).
